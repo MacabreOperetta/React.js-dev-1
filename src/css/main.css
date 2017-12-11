@@ -1,0 +1,36 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color:chartreuse;
+	-webkit-animation: 100s linear 0s normal none infinite animate;
+	-moz-animation: 100s linear 0s normal none infinite animate;
+	-ms-animation: 100s linear 0s normal none infinite animate;
+	-o-animation: 100s linear 0s normal none infinite animate;
+	animation: 100s linear 0s normal none infinite animate;
+}
+
+input, button {
+    border: none;
+    font-size:20px;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.list-container{
+    font-size: 40px;
+    font:bolder;
+}
